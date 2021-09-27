@@ -13,4 +13,4 @@ allNews = soup.findAll('a', class_='d-lg-none font-bold')
 
 
 for data in allNews:
-    print(data)
+    print(data.text)
